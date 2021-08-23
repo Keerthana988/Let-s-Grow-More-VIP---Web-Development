@@ -1,0 +1,332 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' sans-serif;
+ 
+}
+/*--------------------------------------------------------navbar-------------------------------------------------------*/
+#nav{
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #1ea6ec, #2c92fb);
+}
+#navbarNav{
+    color: white;
+}
+
+.navbar-brand span{
+    font-weight: bolder;
+    color: white;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: #fff ;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#navbar-log{
+    color: white;
+}
+
+/*-------------------------------------------------------home---------------------------------------------------------*/
+#banner{
+    position: relative;
+    background-image: linear-gradient(to right, #1ea6ec, #2c92fb);
+    color: #fff;
+    padding-top: 13%;
+}
+
+.title{
+    font-weight: bolder;
+
+}
+.ban-img{
+    position: relative;
+    z-index: 1000;
+}
+.wave{
+    position: absolute;
+    bottom: -10%;
+    left: 0;
+}
+
+/*-------------------------------------------------------about us--------------------------------------------------------*/
+#aboutus{
+    padding-top: 0;
+}
+
+.section-title{
+    font-weight: 500;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 9%;
+    color: #2c92fb;
+}
+.paragraph{
+    padding-top: 5%;
+    font-size: 18px;
+}
+.img-fluid{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.about-title{
+    padding-top:8%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-size: 50px;
+   color: #2c92fb;
+}
+
+/*--------------------------------------------------------projects------------------------------------------------------*/
+
+.Project-title{
+    text-align: center;
+    align-items: center;
+    color: #2c92fb;
+    padding: 5%;
+    font-size: 50px;
+    font-weight: bold;
+}
+#col-card{
+    border-radius: 30px;
+    border-color: black;
+
+}
+.col{
+    height: 600px;
+}
+.card img{
+    height: 230px;
+    transition: 1s;
+}
+
+.inner{
+    overflow: hidden;
+}
+.card img:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+.card-title{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 2%;
+}
+.card-text{
+    font-size: 16px;
+    padding-bottom: 2%;
+}
+
+/*--------------------------------------------------------------pricing----------------------------------------------------------*/
+
+#pricing-title{
+    color: #2c92fb;
+    font-size: 60px;
+    padding-bottom: 6%;
+    font-weight: bolder;
+}
+#Pricing{
+    padding-bottom: 5%;
+}
+
+#pricing-img{
+    height: 50%;
+    width: 50%;
+}
+
+.pricing-heading{
+    padding: 4%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#pricing-log{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/*--------------------------------------------------------------video projects--------------------------------------------------*/
+
+#video-project-title{
+    padding-top: 6%;
+    padding-bottom: 0%;
+    font-size: 60px;
+    color: #2c92fb;
+}
+
+#video-project{
+    background-color: rgb(210, 231, 233);
+    padding-bottom: 5%;
+}
+
+/*--------------------------------------------------------------Life at coding--------------------------------------------------*/
+
+#life-title{
+    padding-top: 9%;
+    padding-bottom:7%;
+    font-size: 50px;
+    color: #2c92fb;
+    text-align: center;
+}
+
+#life{
+    height: 50%;
+    width: 50%;
+}
+
+/*--------------------------------------------------------------team-------------------------------------------------------------*/
+
+#team-title{
+    padding-top: 9%;
+    padding-bottom:4%;
+    font-size: 50px;
+    color: #2c92fb;
+    text-align: center;
+}
+#team-img{
+    height: 50%;
+    width: 40%;
+    border-radius: 80%;
+    transition: 1s;
+}
+
+#team-log{
+    padding-right: 20%;
+    padding-left: 20%;
+}
+.inner{
+    overflow: hidden;
+}
+#team-img:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+#coding-team{
+    padding-bottom: 3%;
+}
+
+/*------------------------------------------------------------newsletter signup------------------------------------------------*/
+
+#newsletter-title{
+    padding-top: 6%;
+    padding-bottom:3%;
+    padding-left: 4%;
+    font-size: 50px;
+    color: #2c92fb;
+    text-align: center;
+}
+
+#email{
+    color: #2c92fb;
+    font-size: 30px;
+}
+
+#email-place{
+    border-color: rgb(3, 3, 3);
+    height: 100%;
+    width: 400px;
+   text-align: center;
+}
+
+#btnn{
+    padding-top: 2%;
+    padding-left: 10%;
+}
+#newsletter{
+    background-image: linear-gradient(to right, rgba(169, 231, 241, 0.521), pink);
+    padding-bottom: 5%;
+}
+
+/*---------------------------------------------------------------blog-------------------------------------------------------------------*/
+#blog{
+    padding-bottom: 4%;
+}
+#blog-title{
+    color: #2c92fb;
+    font-size: 60px;
+    padding-bottom: 4%;
+    padding-top: 2%;
+    font-weight: bolder;
+}
+
+#blog-img{
+    height: 50%;
+    width: 100%;
+}
+
+.blog-heading{
+    padding: 4%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#blog-log{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/*------------------------------------------------------------contact------------------------------------------------*/
+
+#contact{
+    padding-top: 3%;
+    padding-bottom: 4%;
+    background-color: rgb(241, 241, 148);
+}
+.contact-title{
+    font-size: 60px;
+    color: #2c92fb;
+    padding-bottom: 4%;
+    padding-top: 2%;
+    text-align: center;
+}
+#label{
+    padding-left: 20%;
+    padding-top: 1%;
+    font-size: 25px;
+    font-weight: bold;
+}
+#message{
+    padding: 10%;
+}
+#btn-contact{
+    padding-left: 34%;
+    padding-right: 34%;
+    margin-top: 3%;
+}
+#img-contact{
+    height: 100%;
+}
+/*---------------------------------------------------------------footer-------------------------------------------------------------------*/
+#footer{
+    padding-bottom: 6%;
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.blog-heading{
+    padding: 4%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#blog-log{
+    padding-left: 10%;
+    padding-right: 10%;
+}
